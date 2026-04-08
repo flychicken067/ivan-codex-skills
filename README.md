@@ -21,6 +21,13 @@ This repository currently ships:
 - Structures output as SW-1, SW-2, SW-3 diagnosis with uncertainty boundaries
 - Supports local indexing through `config.json` or `--source-dir`
 
+## Example Prompts
+
+- `Use ivan-human-ui to remove the AI vibe from this landing page and verify all testimonial tracks render.`
+- `Use ivan-human-ui to give me 3 concrete visual directions before editing the page.`
+- `Use ivan-bazi-architect to produce a cited SW-1 SW-2 SW-3 brief from my configured PDF library.`
+- `Use ivan-bazi-architect to build an audit memo with citations and uncertainty notes.`
+
 ## Install Options
 
 ### Option A: Use the whole plugin locally
@@ -53,3 +60,12 @@ These skills are developer-managed. `ivan-bazi-architect` reads only local files
 ## Terms
 
 Use these skills at your own discretion. Outputs from both skills should be reviewed by a human before being used for high-impact decisions.
+
+## 中文说明
+
+这个仓库是 Ivan 自己发布的 Codex skills 仓库，不依赖 `openai/skills` 官方审核。
+
+- `ivan-human-ui`：用于网页和演示型页面去掉 AI 味道，强调具体约束、可复现评测和真实视觉验证。
+- `ivan-bazi-architect`：用于基于本地命理 PDF 资料做有引用、带边界说明的结构化分析。
+
+如果你只是想装单个 skill，最简单的方法就是直接用上面的 GitHub folder URL 配合 `$skill-installer`。
