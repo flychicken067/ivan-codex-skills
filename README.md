@@ -1,46 +1,50 @@
 # Ivan Codex Skills
 
-Personal Codex plugin repository for Ivan's reusable skills.
+Ivan's personal Codex plugin repository for reusable skills that do not depend on `openai/skills` approval.
 
-This repository packages two skills as a single installable plugin:
+This repository currently ships:
 
-- `ivan-human-ui`: remove generic AI-looking UI patterns and ship more intentional product pages
-- `ivan-bazi-architect`: citation-backed BaZi workflow with configurable local PDF indexing
+- `ivan-human-ui`
+- `ivan-bazi-architect`
 
-## Install
+## What You Get
 
-Clone this repository locally, then open the repo in Codex. The repo-local marketplace entry at `.agents/plugins/marketplace.json` exposes the bundled plugin.
+### `ivan-human-ui`
 
-The plugin lives at:
+- Removes generic AI-looking UI patterns from landing pages, dashboards, and presentation-style pages
+- Uses explicit visual constraints instead of vague "make it nicer" prompts
+- Includes repeatable evaluation prompts, scoring, and deterministic visibility checks
 
-`./plugins/ivan-skill-pack`
+### `ivan-bazi-architect`
 
-If you prefer direct skill installation after publishing this repo to GitHub, each skill can also be installed from its folder URL:
+- Provides a citation-backed BaZi workflow using local PDF references
+- Structures output as SW-1, SW-2, SW-3 diagnosis with uncertainty boundaries
+- Supports local indexing through `config.json` or `--source-dir`
 
-- `https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-pack/skills/ivan-human-ui`
-- `https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-pack/skills/ivan-bazi-architect`
+## Install Options
 
-## Included Skills
+### Option A: Use the whole plugin locally
 
-### Ivan Human UI
+1. Clone this repository.
+2. Open the repository in Codex.
+3. The repo-local marketplace entry at `.agents/plugins/marketplace.json` exposes:
+   - `./plugins/ivan-skill-pack`
 
-- Best for landing pages, dashboards, and presentation-style web sections
-- Focuses on explicit visual constraints, eval loops, and evidence-backed polish
+### Option B: Install one skill directly from GitHub
 
-### Ivan Bazi Architect
+Use `$skill-installer` with the GitHub folder URL:
 
-- Best for explicit BaZi or 命理 requests
-- Uses local PDF references, indexed snippets, citations, and uncertainty boundaries
+- `$skill-installer install https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-pack/skills/ivan-human-ui`
+- `$skill-installer install https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-pack/skills/ivan-bazi-architect`
+
+Restart Codex after installing a skill.
 
 ## Repository Layout
 
-- `.agents/plugins/marketplace.json`: local marketplace entry
+- `.agents/plugins/marketplace.json`: repo-local marketplace entry
 - `plugins/ivan-skill-pack/.codex-plugin/plugin.json`: plugin manifest
-- `plugins/ivan-skill-pack/skills/`: bundled skill directories
-
-## Publishing
-
-This repo is meant for direct GitHub publishing and personal distribution. It does not depend on acceptance into `openai/skills`.
+- `plugins/ivan-skill-pack/skills/ivan-human-ui`: UI polish skill
+- `plugins/ivan-skill-pack/skills/ivan-bazi-architect`: BaZi workflow skill
 
 ## Privacy
 
