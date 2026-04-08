@@ -1,0 +1,20 @@
+{
+  "name": "ivan-codex-skills",
+  "interface": {
+    "displayName": "Ivan Codex Skills"
+  },
+  "plugins": [
+    {
+      "name": "ivan-skill-pack",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ivan-skill-pack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

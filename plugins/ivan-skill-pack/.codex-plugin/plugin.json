@@ -1,0 +1,40 @@
+{
+  "name": "ivan-skill-pack",
+  "version": "0.1.0",
+  "description": "Ivan's Codex plugin bundle with human-UI polish and BaZi workflow skills.",
+  "author": {
+    "name": "Ivan",
+    "email": "flychicken067@users.noreply.github.com",
+    "url": "https://github.com/flychicken067"
+  },
+  "homepage": "https://github.com/flychicken067/ivan-codex-skills",
+  "repository": "https://github.com/flychicken067/ivan-codex-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "design",
+    "bazi"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ivan Skill Pack",
+    "shortDescription": "Human UI polish and BaZi workflow skills for Codex.",
+    "longDescription": "A personal Codex plugin that bundles Ivan Human UI for removing generic AI-looking interfaces and Ivan Bazi Architect for citation-backed BaZi workflows with local PDFs.",
+    "developerName": "Ivan",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/flychicken067/ivan-codex-skills",
+    "privacyPolicyURL": "https://github.com/flychicken067/ivan-codex-skills#privacy",
+    "termsOfServiceURL": "https://github.com/flychicken067/ivan-codex-skills#terms",
+    "defaultPrompt": [
+      "Use ivan-human-ui to remove AI-looking patterns from this landing page.",
+      "Use ivan-bazi-architect to build a cited SW-1 SW-2 SW-3 brief from my local PDFs.",
+      "Show me which of Ivan's bundled skills fits this task best."
+    ],
+    "brandColor": "#1F2937"
+  }
+}
