@@ -25,11 +25,15 @@ This repository currently ships:
 
 ### `ivan-youmind-skill-cover`
 
+![YouMind Skill 价值封面](plugins/ivan-skill-pack/skills/ivan-youmind-skill-cover/assets/skill-cover-16x9.png)
+
 - Turns an abstract Skill description into a scene-based value cover
 - Shows a recognizable user, the original input, and the concrete output
 - Keeps medical, product, and regulatory claims within confirmed source material
 
 ### `ivan-sun-study-reversal`
+
+![孙学反转写作封面](plugins/ivan-skill-pack/skills/ivan-sun-study-reversal/assets/skill-cover-16x9-v2.png)
 
 - Deconstructs numbers, recurring objects, and narrative pricing power in a source text
 - Builds a female-first-person reversal without presenting fiction as fact
