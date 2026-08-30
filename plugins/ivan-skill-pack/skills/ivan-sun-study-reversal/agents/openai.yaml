@@ -1,0 +1,4 @@
+interface:
+  display_name: "孙学反转写作"
+  short_description: "拆解数字、物件与定价权，写女性第一人称反转文章。"
+  default_prompt: "使用孙学反转写作拆解这篇原文，并写成有证据、有主体性的女性第一人称反转文章。"

@@ -1,7 +1,7 @@
 {
   "name": "ivan-skill-pack",
-  "version": "0.1.0",
-  "description": "Ivan's Codex plugin bundle with human-UI polish and BaZi workflow skills.",
+  "version": "0.2.0",
+  "description": "Ivan's Codex plugin bundle for human UI, structured research, visual skill covers, and narrative workflows.",
   "author": {
     "name": "Ivan",
     "email": "flychicken067@users.noreply.github.com",
@@ -14,13 +14,15 @@
     "codex",
     "skills",
     "design",
-    "bazi"
+    "bazi",
+    "youmind",
+    "writing"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Ivan Skill Pack",
-    "shortDescription": "Human UI polish and BaZi workflow skills for Codex.",
-    "longDescription": "A personal Codex plugin that bundles Ivan Human UI for removing generic AI-looking interfaces and Ivan Bazi Architect for citation-backed BaZi workflows with local PDFs.",
+    "shortDescription": "Ivan's reusable UI, research, visual-cover, and writing workflows.",
+    "longDescription": "A personal Codex plugin that bundles Ivan Human UI, Ivan Bazi Architect, YouMind Skill Cover, and Sun Study Reversal Writing as focused reusable workflows.",
     "developerName": "Ivan",
     "category": "Productivity",
     "capabilities": [
@@ -33,6 +35,8 @@
     "defaultPrompt": [
       "Use ivan-human-ui to remove AI-looking patterns from this landing page.",
       "Use ivan-bazi-architect to build a cited SW-1 SW-2 SW-3 brief from my local PDFs.",
+      "Use ivan-youmind-skill-cover to turn this skill into a clear before-and-after value cover.",
+      "Use ivan-sun-study-reversal to deconstruct this source and write a female-first-person reversal.",
       "Show me which of Ivan's bundled skills fits this task best."
     ],
     "brandColor": "#1F2937"

@@ -6,6 +6,8 @@ This repository currently ships:
 
 - `ivan-human-ui`
 - `ivan-bazi-architect`
+- `ivan-youmind-skill-cover`
+- `ivan-sun-study-reversal`
 
 ## What You Get
 
@@ -21,12 +23,26 @@ This repository currently ships:
 - Structures output as SW-1, SW-2, SW-3 diagnosis with uncertainty boundaries
 - Supports local indexing through `config.json` or `--source-dir`
 
+### `ivan-youmind-skill-cover`
+
+- Turns an abstract Skill description into a scene-based value cover
+- Shows a recognizable user, the original input, and the concrete output
+- Keeps medical, product, and regulatory claims within confirmed source material
+
+### `ivan-sun-study-reversal`
+
+- Deconstructs numbers, recurring objects, and narrative pricing power in a source text
+- Builds a female-first-person reversal without presenting fiction as fact
+- Separates source facts, narrator judgments, and fictional reconstruction
+
 ## Example Prompts
 
 - `Use ivan-human-ui to remove the AI vibe from this landing page and verify all testimonial tracks render.`
 - `Use ivan-human-ui to give me 3 concrete visual directions before editing the page.`
 - `Use ivan-bazi-architect to produce a cited SW-1 SW-2 SW-3 brief from my configured PDF library.`
 - `Use ivan-bazi-architect to build an audit memo with citations and uncertainty notes.`
+- `Use ivan-youmind-skill-cover to show the before-and-after value of this Skill.`
+- `Use ivan-sun-study-reversal to deconstruct this source and write a female-first-person reversal.`
 
 ## Install Options
 
@@ -43,6 +59,8 @@ Use `$skill-installer` with the GitHub folder URL:
 
 - `$skill-installer install https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-pack/skills/ivan-human-ui`
 - `$skill-installer install https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-pack/skills/ivan-bazi-architect`
+- `$skill-installer install https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-pack/skills/ivan-youmind-skill-cover`
+- `$skill-installer install https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-pack/skills/ivan-sun-study-reversal`
 
 Restart Codex after installing a skill.
 
@@ -52,6 +70,8 @@ Restart Codex after installing a skill.
 - `plugins/ivan-skill-pack/.codex-plugin/plugin.json`: plugin manifest
 - `plugins/ivan-skill-pack/skills/ivan-human-ui`: UI polish skill
 - `plugins/ivan-skill-pack/skills/ivan-bazi-architect`: BaZi workflow skill
+- `plugins/ivan-skill-pack/skills/ivan-youmind-skill-cover`: YouMind value-cover skill
+- `plugins/ivan-skill-pack/skills/ivan-sun-study-reversal`: narrative reversal skill
 
 ## Privacy
 
@@ -59,7 +79,7 @@ These skills are developer-managed. `ivan-bazi-architect` reads only local files
 
 ## Terms
 
-Use these skills at your own discretion. Outputs from both skills should be reviewed by a human before being used for high-impact decisions.
+Use these skills at your own discretion. Outputs should be reviewed by a human before being used for high-impact decisions or public claims.
 
 ## 中文说明
 
@@ -67,5 +87,7 @@ Use these skills at your own discretion. Outputs from both skills should be revi
 
 - `ivan-human-ui`：用于网页和演示型页面去掉 AI 味道，强调具体约束、可复现评测和真实视觉验证。
 - `ivan-bazi-architect`：用于基于本地命理 PDF 资料做有引用、带边界说明的结构化分析。
+- `ivan-youmind-skill-cover`：把抽象 Skill 变成有人物、有输入输出对比的 YouMind 价值封面。
+- `ivan-sun-study-reversal`：拆解数字、物件与定价权，完成女性第一人称反转写作，并区分事实与虚构。
 
 如果你只是想装单个 skill，最简单的方法就是直接用上面的 GitHub folder URL 配合 `$skill-installer`。
