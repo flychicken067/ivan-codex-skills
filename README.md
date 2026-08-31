@@ -55,6 +55,8 @@
 
 The two creator-facing Skills use the same open `SKILL.md` core across platforms. See the [中文创作者推广包](docs/CREATOR-LAUNCH-KIT.zh-CN.md) for exact installation commands, sample prompts, Feishu sharing structure, and a 30-day evidence plan.
 
+If you are testing either Skill for the first time, use the [10 分钟创作者试跑](docs/10-MINUTE-CREATOR-TEST.zh-CN.md). A real tester means someone who installed the package, ran a redacted example, and left a locatable result—not someone who only viewed or downloaded it.
+
 - Claude Code: add this repository as a marketplace, then install either Skill separately.
 - Claude.ai: upload the corresponding ZIP from GitHub Releases in **Customize → Skills**.
 - Codex: install either GitHub skill folder with `$skill-installer`.
