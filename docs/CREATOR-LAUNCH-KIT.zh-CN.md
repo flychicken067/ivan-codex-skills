@@ -102,3 +102,5 @@ https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-
 - 飞书：已建立中文发现与协作文档；未因此自动获得外部公开权限。
 
 官方市场提交字段、隐私声明、示例提示词和验证入口统一维护在 [MARKETPLACE-SUBMISSION-DRAFT.md](MARKETPLACE-SUBMISSION-DRAFT.md)。
+
+真实安装与待验证边界记录在 [INSTALL-VERIFICATION-2026-08-31.md](INSTALL-VERIFICATION-2026-08-31.md)。
