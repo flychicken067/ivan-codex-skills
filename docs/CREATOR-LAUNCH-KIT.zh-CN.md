@@ -53,6 +53,8 @@ https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-
 
 下载 GitHub Release 中对应的 ZIP，通过 **Skills → 导入本地技能包** 安装。第一次只用脱敏样本测试，并核对来源、权限、输入输出、版本和已知问题；通过后再用于真实任务。
 
+公开推广分两步：先用 ZIP 完成真实安装和脱敏试跑；确认客户端账号出现 **发布到 SkillHub** 后，再提交市场版本。不要把“能本地导入”写成“已经在 SkillHub 上架”。
+
 ### 飞书
 
 飞书在这里承担“中文发现与协作入口”，不是伪装成 Skill 运行时：
@@ -90,3 +92,13 @@ https://github.com/flychicken067/ivan-codex-skills/tree/main/plugins/ivan-skill-
 4. **第 4 周：维护证据。** 汇总 Issues、修复记录和回归结果，再决定是否申请 Claude 官方市场或 WorkBuddy SkillHub。
 
 北极星指标不是浏览量，而是：**完成真实安装并提交可定位反馈的外部创作者数。**
+
+## 当前发布状态
+
+- GitHub 源码、Release ZIP：已就绪。
+- Claude Code 独立 Marketplace：已就绪，可用上面的命令安装。
+- Claude 官方 Marketplace：材料已整理，尚未提交审核。
+- WorkBuddy 本地 ZIP：已就绪；SkillHub 上架需要在客户端发布入口完成。
+- 飞书：已建立中文发现与协作文档；未因此自动获得外部公开权限。
+
+官方市场提交字段、隐私声明、示例提示词和验证入口统一维护在 [MARKETPLACE-SUBMISSION-DRAFT.md](MARKETPLACE-SUBMISSION-DRAFT.md)。
