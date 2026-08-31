@@ -1,7 +1,7 @@
 {
   "name": "ivan-skill-pack",
-  "version": "0.2.0",
-  "description": "Ivan's Codex plugin bundle for human UI, structured research, visual skill covers, and narrative workflows.",
+  "version": "0.3.0",
+  "description": "Creator tools for making Agent Skills easier to understand and generated interfaces less generic.",
   "author": {
     "name": "Ivan",
     "email": "flychicken067@users.noreply.github.com",
@@ -14,15 +14,16 @@
     "codex",
     "skills",
     "design",
-    "bazi",
     "youmind",
-    "writing"
+    "claude",
+    "workbuddy",
+    "creator-tools"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Ivan Skill Pack",
-    "shortDescription": "Ivan's reusable UI, research, visual-cover, and writing workflows.",
-    "longDescription": "A personal Codex plugin that bundles Ivan Human UI, Ivan Bazi Architect, YouMind Skill Cover, and Sun Study Reversal Writing as focused reusable workflows.",
+    "shortDescription": "Human UI review and visual Skill-value explanation workflows.",
+    "longDescription": "A creator-focused plugin led by Ivan Human UI and Skill Value Cover, with experimental personal workflows also included in the repository.",
     "developerName": "Ivan",
     "category": "Productivity",
     "capabilities": [

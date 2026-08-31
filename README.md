@@ -51,6 +51,16 @@
 3. Use the repo-local marketplace entry at `.agents/plugins/marketplace.json` to install `./plugins/ivan-skill-pack`.
 4. Restart Codex after installation.
 
+## Install on Claude, Codex, WorkBuddy, or Share through Feishu
+
+The two creator-facing Skills use the same open `SKILL.md` core across platforms. See the [中文创作者推广包](docs/CREATOR-LAUNCH-KIT.zh-CN.md) for exact installation commands, sample prompts, Feishu sharing structure, and a 30-day evidence plan.
+
+- Claude Code: add this repository as a marketplace, then install either Skill separately.
+- Claude.ai: upload the corresponding ZIP from GitHub Releases in **Customize → Skills**.
+- Codex: install either GitHub skill folder with `$skill-installer`.
+- WorkBuddy: import the corresponding local ZIP and test with a redacted sample first.
+- Feishu: use the Chinese launch page as the discovery, collaboration, and feedback layer; execution stays in a supported Skill runtime.
+
 ## Repository Layout
 
 - `.agents/plugins/marketplace.json`: repo-local marketplace entry

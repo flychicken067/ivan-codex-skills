@@ -1,6 +1,6 @@
 ---
 name: ivan-youmind-skill-cover
-description: 为 AI Skill 制作场景化的输入/输出价值封面。适用于 YouMind 技能详情页、技能市场卡片和内部技能展示；当用户要解释一个 Skill 给谁用、解决什么麻烦、交付什么结果时使用。
+description: 为 AI Skill 制作场景化的输入/输出价值封面。Create a scene-based value cover that shows who a Skill serves, the real input, and the concrete output. 适用于技能详情页、市场卡片、创作者发布页和内部技能展示。
 ---
 
 # YouMind Skill 价值封面
